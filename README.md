@@ -9,7 +9,7 @@
 	Um sistema minimalista para cadastrar doadores de sangue.
 </h3>
 
-## :Instalação:
+## Instalação
 
 1. Faça a instalação do editor de código [VS Code](https://code.visualstudio.com);
 2. Utilize o [Google Chrome](https://www.google.com/intl/pt-BR/chrome/) com as ferramentas de inspeção de código web;
