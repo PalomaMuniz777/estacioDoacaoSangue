@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Doe vida! Doe sangue!</title>
+    
+        <link rel="stylesheet" href="../frontend/public/style.css"> 
+
+    </head>
+<body>
+    <header>
+        <img class="logo" src="./public/logo.png" alt="Logo">
+        <h2>Sua doação faz a diferença</h2>
+        <p>A cada doação, até 3 vidas podem ser salvas</p>
+        <p>Mais de 38.000 doações de sangue são necessárias todos os dias no Brasil</p>
+        <p>Em Juiz de Fora - MG, a demanda por doações de sangue é crítica, especialmente em períodos de férias e feriados</p>
+        <p>Apenas 1,9% da população brasileira doa sangue regularmente</p>
+        <button id="showFormButton">Quero ajudar</button> <button id="hideFormButton" class="hide">Fechar</button>
+    </header>
+    
+
+    <section class="form hide">
+        <h2>Entre na lista de doadores</h2>
+        <form action="/" method="POST">
+            <input type="text" name="name" placeholder="Nome Completo">
+            <input type="text" name="email" placeholder="Email">
+            <input type="text" name="blood" placeholder="Tipo sanguíneo">
+            <button>
+                Quero ajudar
+            </button>
+        </form>
+    </section>
+
+    <main>
+        <h2>Últimos <span>doadores</span></h2>
+
+        <section class="donors">
+            {% for doador in doadores %}
+                <div class="donor">
+                    <div class="blood">{{ doador.blood }}</div>
+                    <p>{{ doador.name }}</p>
+                </div>
+            {% endfor %}
+        </section>
+    </main>
+
+    <footer>
+         ❤️ Paloma Muniz Mendes ❤️ 
+    </footer>
+
+    <script src="/scripts.js"></script>
+</body>
+
+</html>
