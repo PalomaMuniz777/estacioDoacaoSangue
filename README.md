@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">
 	<img alt="Imagem de DOE" src="./src/frontend/public/logo.png" width="150px" />
 </h1>
@@ -73,3 +74,6 @@
 ## Licença
 
 Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+=======
+# estacioDoacaoSangue
+>>>>>>> 6b34816b9c1b50c7c90343fae67d178e089aaf71
