@@ -20,7 +20,7 @@
 
 ## Produção
 
-1. Entre na pasta do projeto com `cd projetoEstacio`;
+1. Entre na pasta do projeto;
 2. Rode o comando `npm init -y`;
 3. Instale todas as dependências: `npm install`
 4. Configure o arquivo `server.js`: <br/>
