@@ -3,7 +3,9 @@
 </h1>
 
 <h3 align="center">
+	
 <img alt="Front" src="./src/frontend/public/Front.png" width="150px" />
+
 	Um sistema minimalista para cadastrar doadores de sangue.
 </h3>
 
